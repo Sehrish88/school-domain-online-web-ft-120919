@@ -3,5 +3,10 @@ class School
   def initialize(name)
     @name = name
   end 
+  school.roster { }
+  
+  def add_student(student)
+    @student = student 
+  end 
 
 end 
